@@ -3,11 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>index</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>IamBanky - LinkTree</title>
 </head>
 <body>
-    <div id="element">Hello world</div>
-    <input value="click" type="button" onclick="clicked()">
+    <img id="profile-picture" src="https://scontent.fbkk4-2.fna.fbcdn.net/v/t1.6435-9/87962888_223477319044774_8002870050774056960_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_eui2=AeG3O2ZWuqZw_byPTS0UryHayTtCwOUBuuvJO0LA5QG663KBwzKB7Sk331n2xsI31Phf5iDegpes50NDj5bG1U0b&_nc_ohc=Cy0M_kYIJOwAX9nsfaa&tn=5McrQ1yrrzooPeiV&_nc_ht=scontent.fbkk4-2.fna&oh=533fd80a8a81c3a1d66527e5bd8f571d&oe=6157321F" alt="Profile" class="profile-picture">
+
+    <div id="PicModal" class="Picmodal" style="display: none;">
+        <span class="close">&times;</span>
+        <img class="Pic-Profile" id="img-Profile">
+    </div>
+
+    <div class="profile-name">
+        <h1>@IamBanky</h1>
+    </div>
+    <div class="full-name">
+        <h2>Thanabadee Techakasiwattana</h2>
+    </div>
+    
+    <a href="https://facebook.com/Thanabadee.Techakasiwattana.IamBanky" class="links" onclick="facebook_alert()">Facebook</a>
+    <a href="https://instagram.com/iam.banky" class="links" onclick="instagram_alert()">Instagram</a>
+    <a href="https://twitter.com/IamLongzhu" class="links" onclick="twitter_alert()">Twitter</a>
+    <a href="https://tiktok.com/@i_am_banky" class="links" onclick="tiktok_alert()">TikTok</a>
+    <a href="https://snapchat.com/add/myname.sbanky" class="links" onclick="snapchat_alert()">Snapchat</a>
+    <a href="mailto:bankthanabadee2007@gmail.com" class="links">Email: BankThanabadee2007@gmail.com</a>
+    <a href="mailto:bankthanabadee2007@icloud.com" class="links">Email: BankThanabadee2007@icloud.com</a>
+    
+    <div class="bottom-text">@IamBanky LinkTree</div>
     <script src="./script/app.js"></script>
 </body>
 </html>

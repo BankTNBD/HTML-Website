@@ -59,6 +59,10 @@ a:hover {
     padding-bottom: 5px;
 }
 
+.line {
+    margin: 50px;
+}
+
 #profile-picture {
     border-radius: 5px;
     cursor: pointer;

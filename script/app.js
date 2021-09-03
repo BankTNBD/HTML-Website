@@ -26,12 +26,12 @@ const twitter_alert = () => {
     alert('Open Twitter ?')
 }
 
-const snapchat_alert = () => {
-    alert('Open Snapchat ?')
-}
-
 const tiktok_alert = () => {
     alert('Open Tiktok ?')
+}
+
+const snapchat_alert = () => {
+    alert('Open Snapchat ?')
 }
 
 const github_alert = () => {

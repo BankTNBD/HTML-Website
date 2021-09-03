@@ -34,8 +34,6 @@ const tiktok_alert = () => {
     alert('Open Tiktok ?')
 }
 
-
-
-const backhome = () => {
-    href = './index.html'
+const github_alert = () => {
+    alert('Open GitHub ?')
 }

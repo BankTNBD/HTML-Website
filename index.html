@@ -1,50 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="shortcut icon" href="img/logo.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>IamBanky - LinkTree</title>
-</head>
-<body>
-    <img id="profile-picture" src="./img/Profile.jpg" alt="Profile" class="profile-picture">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="IamBanky">
+        <meta property="og:image" content="https://linktree.iambanky.com/img/logo.png">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="shortcut icon" href="./img/logo.ico" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <title>IamBanky - LinkTree</title>
+    </head>
+    <body>
+        <img id="logo" src="./img/logo.png" alt="Logo">
 
-    <div id="PicModal" class="Picmodal" style="display: none;">
-        <span class="close">&times;</span>
-        <img class="Pic-Profile" id="img-Profile">
-    </div>
+        <div class="title">
+            <h1>IamBanky</h1>
+        </div>
+        <div class="name">
+            <h2>Thanabadee Techakasiwattana</h2>
+        </div>
+        
+        <a onclick="link('Facebook')">Facebook</a>
+        <a onclick="link('Instagram')">Instagram</a>
+        <a onclick="link('Twitter')">Twitter</a>
+        <a onclick="link('Snapchat')">Snapchat</a>
+        <a onclick="link('Github')">GitHub</a>
+        <a href="mailto:info@iambanky.com">Email: Info@IamBanky.com</a>
 
-    <div class="profile-name">
-        <h1>IamBanky</h1>
-    </div>
-    <div class="full-name">
-        <h2>Thanabadee Techakasiwattana</h2>
-    </div>
-    
-    <a href="https://facebook.com/IamBanky" class="links" onclick="facebook_alert()">Facebook</a>
-    <a href="https://instagram.com/iam.banky" class="links" onclick="instagram_alert()">Instagram</a>
-    <a href="https://twitter.com/CallMeBanky" class="links" onclick="twitter_alert()">Twitter</a>
-    <a href="https://tiktok.com/@i_am_banky" class="links" onclick="tiktok_alert()">TikTok</a>
-    <a href="https://snapchat.com/add/myname.sbanky" class="links" onclick="snapchat_alert()">Snapchat</a>
-    <a href="https://github.com/BankTNBD/" class="links" onclick="github_alert()">GitHub</a>
-    <a href="mailto:bankthanabadee2007@gmail.com" class="links">Email: BankThanabadee2007@gmail.com</a>
-    <a href="mailto:bankthanabadee2007@icloud.com" class="links">Email: BankThanabadee2007@icloud.com</a>
-    <br>
-    <hr class="line">
-    <h1 class="profile-name">GitHub Repo</h1>
-    <a href="https://github.com/BankTNBD/IamBanky-LinkTree" class="links">LinkTree</a>
-    <a href="https://github.com/BankTNBD/IamBanky-Game" class="links">Game</a>
-    <br>
-    <hr class="line">
-    <div class="bottom-text">@IamBanky LinkTree</div>
-    <center>
-        <img src="./img/logo.png" style="z-index: 1; position: relative; width: 25%; height: 25%; padding-top: 30px;">
-    </center>
-    <script src="./script/app.js"></script>
-</body>
+        <br>
+        <hr class="line">
+        <h1 class="title">GitHub Repo</h1>
+        <a href="https://github.com/BankTNBD/IamBanky-LinkTree">LinkTree</a>
+        <a href="https://github.com/BankTNBD/IamBanky-Game">Game</a>
+
+        <br>
+        <hr class="line">
+        <div class="bottom-text">@IamBanky LinkTree</div>
+
+        <script src="./js/app.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </body>
 </html>

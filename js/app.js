@@ -8,6 +8,7 @@ urllist = {
 }
 
 const link = (url) => {
+  /*
     swal(`Redirect to ${url}?`, {
         buttons: {
           no: "Exit",
@@ -24,4 +25,6 @@ const link = (url) => {
             break
         }
     })
+  */
+  window.location.href = urllist[url]
 }

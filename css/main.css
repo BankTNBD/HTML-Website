@@ -75,6 +75,14 @@ a:hover {
     background-color: #eb0000;
 }
 
+.swal-button--no:hover {
+    background-color: gray;
+}
+
 .swal-button--yes {
     background-color: #3a9425;
+}
+
+.swal-button--yes:hover {
+    background-color: gray;
 }

@@ -8,23 +8,5 @@ urllist = {
 }
 
 const link = (url) => {
-  /*
-    swal(`Redirect to ${url}?`, {
-        buttons: {
-          no: "Exit",
-          yes: {
-              text: "Redirect",
-              value: "yes"
-          }
-        },
-      })
-      .then((value) => {
-        switch (value) {
-          case "yes":
-            window.location.href = urllist[url]
-            break
-        }
-    })
-  */
   window.location.href = urllist[url]
 }

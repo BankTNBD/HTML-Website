@@ -12,5 +12,5 @@ urllist = {
 }
 
 const link = (url) => {
-  window.location.href = urllist[url]
+  window.open(urllist[url], "_blank");
 }

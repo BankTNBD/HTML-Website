@@ -1,7 +1,7 @@
 urllist = {
     //social
     'Facebook': 'https://facebook.com/IamBanky',
-    'Instagram': 'https://instagram.com/iam.banky',
+    'Instagram': 'https://www.instagram.com/bank.y_',
     'Twitter': 'https://twitter.com/CallMeBanky',
     'Discord': 'https://discord.com/users/784066460627632148',
     'Twitch': 'https://www.twitch.tv/iambanky',
